@@ -5,6 +5,7 @@ import path from 'path';
 import express from 'express';
 
 import createGraphqlEndpoint from '~/server/middleware/create-graphql-endpoint';
+import createGraphqlClient from '~/server/middleware/create-graphql-client';
 import renderApp from '~/server/middleware/render-app';
 
 const port = process.env.PORT || 3000;
@@ -15,7 +16,10 @@ app.use('/static', express.static(path.join(__dirname, '/static')));
 
 app.use('/graphql', createGraphqlEndpoint({graphiql: true}));
 
-app.use(renderApp(path.resolve(__dirname, 'index.html')));
+app.use(
+  createGraphqlClient(),
+  renderApp(path.resolve(__dirname, 'index.html'))
+);
 
 app.listen(port, () => {
   // eslint-disable-next-line

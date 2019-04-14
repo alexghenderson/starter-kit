@@ -3,10 +3,10 @@ import {BrowserRouter} from 'react-router-dom';
 
 import App from '~/components/app';
 
-const Root = () => {
+const Root = ({client}) => {
   return (
     <BrowserRouter>
-      <App />
+      <App graphqlClient={client} />
     </BrowserRouter>
   );
 };

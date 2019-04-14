@@ -2,8 +2,6 @@ const path = require('path');
 const assign = require('assign-deep');
 const preset = require('@alexghenderson/jest-preset');
 
-console.log(path.resolve(__dirname, '..'));
-
 const config = assign({}, preset, {
   rootDir: path.resolve(__dirname, '..'),
   coverageDirectory: '<rootDir>/coverage',
@@ -25,7 +23,5 @@ const config = assign({}, preset, {
     ),
   ],
 });
-
-console.log(config);
 
 module.exports = config;

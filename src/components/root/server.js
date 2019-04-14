@@ -3,10 +3,10 @@ import {StaticRouter} from 'react-router-dom';
 
 import App from '~/components/app';
 
-const Root = ({url, context}) => {
+const Root = ({url, context, client}) => {
   return (
     <StaticRouter location={url} context={context}>
-      <App />
+      <App graphqlClient={client} />
     </StaticRouter>
   );
 };
