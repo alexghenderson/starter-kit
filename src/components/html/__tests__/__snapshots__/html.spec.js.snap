@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`HTML Component should render even without scripts or helmet 1`] = `"<html><head></head><body><div id=\\"app\\">test-content</div></body></html>"`;
+
 exports[`HTML Component should render html document 1`] = `"<html><head><title data-react-helmet=\\"true\\"></title></head><body><div id=\\"app\\">test-content</div><script src=\\"test\\"></script></body></html>"`;

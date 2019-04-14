@@ -4,17 +4,22 @@
 
 import enzyme from 'enzyme';
 import Helmet from 'react-helmet';
-import HTML from '../';
+import Html from '../';
 
 describe('HTML Component', () => {
   it('should render html document', () => {
     const scriptTag = '<script src="test"></script>';
     const helmet = Helmet.renderStatic();
     const wrapper = enzyme.shallow(
-      <HTML helmet={helmet} scriptTags={scriptTag}>
+      <Html helmet={helmet} scriptTags={scriptTag}>
         test-content
-      </HTML>
+      </Html>
     );
+    expect(wrapper.html()).toMatchSnapshot();
+  });
+
+  it('should render even without scripts or helmet', () => {
+    const wrapper = enzyme.shallow(<HTML>test-content</HTML>);
     expect(wrapper.html()).toMatchSnapshot();
   });
 
@@ -27,9 +32,9 @@ describe('HTML Component', () => {
     const helmet = Helmet.renderStatic();
     expect(() => {
       enzyme.shallow(
-        <HTML helmet={helmet} scriptTags={scriptTag}>
+        <Html helmet={helmet} scriptTags={scriptTag}>
           test-content
-        </HTML>
+        </Html>
       );
     }).toThrow();
   });
