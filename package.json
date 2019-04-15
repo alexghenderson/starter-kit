@@ -1,7 +1,7 @@
 {
-  "name": "league-viewer-2",
+  "name": "alexghenderson-starter-kit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starter kit with react, webpack, graphql data fetching, SSR, emotion, jest, eslint",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production nodemon dist/server.bundle.js",
