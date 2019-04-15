@@ -7,7 +7,7 @@ query {
 `
 
 const FetchHelloWorld = () => {
-  const results = useQuery(query)
+  const results = useQuery(query, {variables: {hello: 'hello'}})
   if(results.loading) {
     return 'Loading';
   }
