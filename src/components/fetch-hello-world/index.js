@@ -2,7 +2,7 @@ import {useQuery} from 'graphql-hooks';
 
 const query = `
 query {
-  helloWorld!
+  helloWorld
 }
 `;
 
