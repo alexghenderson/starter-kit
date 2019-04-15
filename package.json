@@ -28,7 +28,6 @@
     "@alexghenderson/eslint-config": "^1.0.7",
     "@alexghenderson/jest-preset": "^1.0.2",
     "@babel/core": "^7.4.3",
-    "assign-deep": "^1.0.0",
     "babel-loader": "^8.0.5",
     "cross-env": "^5.2.0",
     "enzyme": "^3.9.0",
@@ -47,6 +46,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
     "@emotion/core": "^10.0.10",
+    "assign-deep": "^1.0.0",
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
     "graphql": "^14.2.1",
