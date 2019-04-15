@@ -3,7 +3,8 @@ import {graphql} from 'graphql';
 import schema from '~/server/graphql/schema';
 
 // This fetch polyfill doesn't actually fetch
-// it simply redirects takes care of manually executing queries
+// it simply pretends to be a fetch, executes the query and returns
+// the query response as though it was a fetch response
 
 const gqlFetch = (url, opts) => {
   // GraphQLClient uses body to deliver query/variables

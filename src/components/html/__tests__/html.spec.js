@@ -19,7 +19,7 @@ describe('HTML Component', () => {
   });
 
   it('should render even without scripts or helmet', () => {
-    const wrapper = enzyme.shallow(<HTML>test-content</HTML>);
+    const wrapper = enzyme.shallow(<Html>test-content</Html>);
     expect(wrapper.html()).toMatchSnapshot();
   });
 

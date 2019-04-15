@@ -2,20 +2,20 @@ import {useQuery} from 'graphql-hooks';
 
 const query = `
 query {
-  helloWorld
+  helloWorld!
 }
-`
+`;
 
 const FetchHelloWorld = () => {
-  const results = useQuery(query, {variables: {hello: 'hello'}})
-  if(results.loading) {
+  const results = useQuery(query, {variables: {hello: 'hello'}, ssr: false});
+  if (results.loading) {
     return 'Loading';
   }
 
-  if(results.error) {
+  if (results.error) {
     return 'Uh oh';
   }
-  
+
   return results.data.helloWorld;
 };
 

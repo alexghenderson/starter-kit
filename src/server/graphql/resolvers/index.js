@@ -8,7 +8,7 @@ const resolvers = {
   Mutation: {
     // spread any existing mutation resolvers here
     ...helloWorld.mutation,
-  }
-}
+  },
+};
 
 export default resolvers;
