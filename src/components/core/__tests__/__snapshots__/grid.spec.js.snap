@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid core component should not display size 0 cols 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -32px;
+  margin-right: -32px;
+}
+
+.emotion-0 {
+  display: none;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 0%;
+}
+
+@media (min-width:600px) {
+  .emotion-0 {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    display: none;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    display: none;
+  }
+}
+
+<div
+  className="emotion-2"
+>
+  <div
+    className="emotion-1"
+  >
+    <div
+      className="emotion-0"
+    >
+      test-content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid core component should pass gutter changes up the tree 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -32px;
+  margin-right: -32px;
+}
+
+.emotion-0 {
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 100%;
+}
+
+@media (min-width:600px) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+<div
+  className="emotion-2"
+>
+  <div
+    className="emotion-1"
+  >
+    <div
+      className="emotion-0"
+    >
+      test-content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid core component should pass render responsive sizes 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -32px;
+  margin-right: -32px;
+}
+
+.emotion-0 {
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 100%;
+}
+
+@media (min-width:600px) {
+  .emotion-0 {
+    width: 50%;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    width: 33.333333333333336%;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    width: 25%;
+  }
+}
+
+<div
+  className="emotion-2"
+>
+  <div
+    className="emotion-1"
+  >
+    <div
+      className="emotion-0"
+    >
+      test-content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid core component should render with default props 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.emotion-0 {
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 100%;
+}
+
+@media (min-width:600px) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+<div
+  className="emotion-2"
+>
+  <div
+    className="emotion-1"
+  >
+    <div
+      className="emotion-0"
+    >
+      test-content
+    </div>
+  </div>
+</div>
+`;
