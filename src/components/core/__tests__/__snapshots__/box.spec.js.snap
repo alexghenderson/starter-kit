@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box core component should render alternate tags 1`] = `
+.emotion-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: inherit;
+  display: block;
+}
+
+<main
+  className="emotion-0"
+>
+  text-main
+</main>
+`;
+
+exports[`Box core component should render different margins and insets 1`] = `
+.emotion-0 {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  padding: 16px;
+  text-align: inherit;
+  display: block;
+}
+
+<div
+  className="emotion-0"
+>
+  test-content
+</div>
+`;
+
+exports[`Box core component should render different text-aligns 1`] = `
+Array [
+  .emotion-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: inherit;
+  display: block;
+}
+
+<div
+    className="emotion-0"
+  >
+    text-
+    inherit
+  </div>,
+  .emotion-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: left;
+  display: block;
+}
+
+<div
+    className="emotion-0"
+  >
+    text-
+    left
+  </div>,
+  .emotion-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: center;
+  display: block;
+}
+
+<div
+    className="emotion-0"
+  >
+    text-
+    center
+  </div>,
+  .emotion-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: right;
+  display: block;
+}
+
+<div
+    className="emotion-0"
+  >
+    text-
+    right
+  </div>,
+]
+`;
+
+exports[`Box core component should render inline box 1`] = `
+.emotion-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: inherit;
+  display: inline-block;
+}
+
+<div
+  className="emotion-0"
+>
+  test-content
+</div>
+`;
+
+exports[`Box core component should render with default props 1`] = `
+.emotion-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: inherit;
+  display: block;
+}
+
+<div
+  className="emotion-0"
+>
+  test-content
+</div>
+`;

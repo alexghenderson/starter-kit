@@ -16,6 +16,7 @@ const Html = ({helmet, children, scriptTags, scriptContent}) => {
         {helmet && helmet.title.toComponent()}
         {helmet && helmet.meta.toComponent()}
         {helmet && helmet.link.toComponent()}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         {scriptContent && (
           <script
             type="text/javascript"
@@ -24,7 +25,7 @@ const Html = ({helmet, children, scriptTags, scriptContent}) => {
         )}
       </head>
       <body {...bodyAttrs}>
-        <div id="app">{children}</div>
+        <main id="app">{children}</main>
         {scripts}
       </body>
     </html>

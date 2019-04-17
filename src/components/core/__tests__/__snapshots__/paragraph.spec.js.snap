@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraph core component should render different sizes 1`] = `
+Array [
+  .emotion-0 {
+  display: block;
+  font-size: 0.875rem;
+  -webkit-letter-spacing: -0.6px;
+  -moz-letter-spacing: -0.6px;
+  -ms-letter-spacing: -0.6px;
+  letter-spacing: -0.6px;
+  line-height: 1.42857;
+}
+
+<p
+    className="emotion-0"
+  >
+    test-
+    small
+  </p>,
+  .emotion-0 {
+  display: block;
+  font-size: 1rem;
+  -webkit-letter-spacing: -0.8px;
+  -moz-letter-spacing: -0.8px;
+  -ms-letter-spacing: -0.8px;
+  letter-spacing: -0.8px;
+  line-height: 1.5;
+}
+
+<p
+    className="emotion-0"
+  >
+    test-
+    medium
+  </p>,
+  .emotion-0 {
+  display: block;
+  font-size: 1.25rem;
+  -webkit-letter-spacing: -1px;
+  -moz-letter-spacing: -1px;
+  -ms-letter-spacing: -1px;
+  letter-spacing: -1px;
+  line-height: 1.6;
+}
+
+<p
+    className="emotion-0"
+  >
+    test-
+    large
+  </p>,
+]
+`;
+
+exports[`Paragraph core component should render with alternate tags 1`] = `
+.emotion-0 {
+  display: block;
+  font-size: 1rem;
+  -webkit-letter-spacing: -0.8px;
+  -moz-letter-spacing: -0.8px;
+  -ms-letter-spacing: -0.8px;
+  letter-spacing: -0.8px;
+  line-height: 1.5;
+}
+
+<div
+  className="emotion-0"
+>
+  test-content
+</div>
+`;
+
+exports[`Paragraph core component should render with default props 1`] = `
+.emotion-0 {
+  display: block;
+  font-size: 1rem;
+  -webkit-letter-spacing: -0.8px;
+  -moz-letter-spacing: -0.8px;
+  -ms-letter-spacing: -0.8px;
+  letter-spacing: -0.8px;
+  line-height: 1.5;
+}
+
+<p
+  className="emotion-0"
+>
+  test-content
+</p>
+`;

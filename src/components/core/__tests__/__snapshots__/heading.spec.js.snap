@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading core component should adapt tag to heading level 1`] = `
+.emotion-0 {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  -webkit-letter-spacing: -0.7px;
+  -moz-letter-spacing: -0.7px;
+  -ms-letter-spacing: -0.7px;
+  letter-spacing: -0.7px;
+}
+
+<h2
+  className="emotion-0"
+>
+  test-level-2
+</h2>
+`;
+
+exports[`Heading core component should render alternate tags 1`] = `
+.emotion-0 {
+  font-size: 1.75rem;
+  line-height: 1.29;
+  -webkit-letter-spacing: -1.6px;
+  -moz-letter-spacing: -1.6px;
+  -ms-letter-spacing: -1.6px;
+  letter-spacing: -1.6px;
+}
+
+<p
+  className="emotion-0"
+>
+  test-p
+</p>
+`;
+
+exports[`Heading core component should render different levels 1`] = `
+Array [
+  .emotion-0 {
+  font-size: 1.75rem;
+  line-height: 1.29;
+  -webkit-letter-spacing: -1.6px;
+  -moz-letter-spacing: -1.6px;
+  -ms-letter-spacing: -1.6px;
+  letter-spacing: -1.6px;
+}
+
+<h1
+    className="emotion-0"
+  >
+    text-
+    1
+  </h1>,
+  .emotion-0 {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  -webkit-letter-spacing: -0.7px;
+  -moz-letter-spacing: -0.7px;
+  -ms-letter-spacing: -0.7px;
+  letter-spacing: -0.7px;
+}
+
+<h2
+    className="emotion-0"
+  >
+    text-
+    2
+  </h2>,
+  .emotion-0 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  -webkit-letter-spacing: -0.6px;
+  -moz-letter-spacing: -0.6px;
+  -ms-letter-spacing: -0.6px;
+  letter-spacing: -0.6px;
+}
+
+<h3
+    className="emotion-0"
+  >
+    text-
+    3
+  </h3>,
+  .emotion-0 {
+  font-size: 1rem;
+  line-height: 1.25;
+  -webkit-letter-spacing: -0.6px;
+  -moz-letter-spacing: -0.6px;
+  -ms-letter-spacing: -0.6px;
+  letter-spacing: -0.6px;
+}
+
+<h4
+    className="emotion-0"
+  >
+    text-
+    4
+  </h4>,
+]
+`;
+
+exports[`Heading core component should render with default props 1`] = `
+.emotion-0 {
+  font-size: 1.75rem;
+  line-height: 1.29;
+  -webkit-letter-spacing: -1.6px;
+  -moz-letter-spacing: -1.6px;
+  -ms-letter-spacing: -1.6px;
+  letter-spacing: -1.6px;
+}
+
+<h1
+  className="emotion-0"
+>
+  test-content
+</h1>
+`;

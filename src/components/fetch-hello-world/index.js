@@ -1,3 +1,4 @@
+import React from 'react';
 import {useQuery} from 'graphql-hooks';
 
 const query = `
@@ -16,7 +17,10 @@ const FetchHelloWorld = () => {
     return 'Uh oh';
   }
 
-  return results.data.helloWorld;
+  return (
+    <React.Fragment>
+      {results.data.helloWorld}
+    </React.Fragment>
+  );
 };
-
 export default FetchHelloWorld;
