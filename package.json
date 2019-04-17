@@ -1,7 +1,7 @@
 {
   "name": "alexghenderson-starter-kit",
   "version": "1.0.0",
-  "description": "Starter kit with react, webpack, graphql data fetching, SSR, emotion, jest, eslint",
+  "description": "Starter kit with react, webpack, graphql data fetching, SSR, emotion, jest, eslint, and some base core components",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production nodemon dist/server.bundle.js",
