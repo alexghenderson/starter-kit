@@ -17,7 +17,7 @@ const Paragraph = ({tag, size, children, ...rest}) => {
   );
 };
 
-Text.propTypes = {
+Paragraph.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   tag: PropTypes.string,
 };

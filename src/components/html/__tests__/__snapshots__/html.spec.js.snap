@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HTML Component should render even without scripts or helmet 1`] = `"<html><head><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\"/></head><body><main id=\\"app\\">test-content</main></body></html>"`;
+exports[`HTML Component should render even without scripts or helmet 1`] = `"<html><head><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\"/><link href=\\"https://fonts.googleapis.com/css?family=Lato|Roboto\\" rel=\\"stylesheet\\"/></head><body><main id=\\"app\\">test-content</main></body></html>"`;
 
-exports[`HTML Component should render html document 1`] = `"<html><head><title data-react-helmet=\\"true\\"></title><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\"/></head><body><main id=\\"app\\">test-content</main><script src=\\"test\\"></script></body></html>"`;
+exports[`HTML Component should render html document 1`] = `"<html><head><title data-react-helmet=\\"true\\"></title><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\"/><link href=\\"https://fonts.googleapis.com/css?family=Lato|Roboto\\" rel=\\"stylesheet\\"/></head><body><main id=\\"app\\">test-content</main><script src=\\"test\\"></script></body></html>"`;

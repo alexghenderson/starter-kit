@@ -1,4 +1,4 @@
-import resolver from '../';
+import resolver from '../resolvers';
 
 describe('Hello World Resolver', () => {
   it('should resolve helloWorld query', () => {

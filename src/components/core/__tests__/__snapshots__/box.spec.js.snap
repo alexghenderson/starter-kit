@@ -11,6 +11,10 @@ exports[`Box core component should render alternate tags 1`] = `
   display: block;
 }
 
+.emotion-0 > *:not(:last-child) {
+  margin-bottom: 0px;
+}
+
 <main
   className="emotion-0"
 >
@@ -27,6 +31,10 @@ exports[`Box core component should render different margins and insets 1`] = `
   padding: 16px;
   text-align: inherit;
   display: block;
+}
+
+.emotion-0 > *:not(:last-child) {
+  margin-bottom: 0px;
 }
 
 <div
@@ -48,6 +56,10 @@ Array [
   display: block;
 }
 
+.emotion-0 > *:not(:last-child) {
+  margin-bottom: 0px;
+}
+
 <div
     className="emotion-0"
   >
@@ -62,6 +74,10 @@ Array [
   padding: 0px;
   text-align: left;
   display: block;
+}
+
+.emotion-0 > *:not(:last-child) {
+  margin-bottom: 0px;
 }
 
 <div
@@ -80,6 +96,10 @@ Array [
   display: block;
 }
 
+.emotion-0 > *:not(:last-child) {
+  margin-bottom: 0px;
+}
+
 <div
     className="emotion-0"
   >
@@ -94,6 +114,10 @@ Array [
   padding: 0px;
   text-align: right;
   display: block;
+}
+
+.emotion-0 > *:not(:last-child) {
+  margin-bottom: 0px;
 }
 
 <div
@@ -116,6 +140,10 @@ exports[`Box core component should render inline box 1`] = `
   display: inline-block;
 }
 
+.emotion-0 > *:not(:last-child) {
+  margin-bottom: 0px;
+}
+
 <div
   className="emotion-0"
 >
@@ -132,6 +160,10 @@ exports[`Box core component should render with default props 1`] = `
   padding: 0px;
   text-align: inherit;
   display: block;
+}
+
+.emotion-0 > *:not(:last-child) {
+  margin-bottom: 0px;
 }
 
 <div

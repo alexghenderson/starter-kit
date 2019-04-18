@@ -11,6 +11,118 @@ Array [
       }
     }
   />,
-  "test-content",
+  .emotion-8 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.emotion-8 > *:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.emotion-2 {
+  background: mediumseagreen;
+}
+
+.emotion-1 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 8px;
+  text-align: inherit;
+  display: block;
+  background: mediumseagreen;
+}
+
+.emotion-1 > *:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.emotion-0 {
+  font-size: 1.75rem;
+  line-height: 1.29;
+  -webkit-letter-spacing: -1.6px;
+  -moz-letter-spacing: -1.6px;
+  -ms-letter-spacing: -1.6px;
+  letter-spacing: -1.6px;
+  font-family: "Lato",sans-serif;
+}
+
+.emotion-4 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  background: salmon;
+}
+
+.emotion-3 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 8px;
+  text-align: inherit;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  background: salmon;
+}
+
+.emotion-3 > *:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.emotion-5 {
+  display: inline;
+  font-size: 1rem;
+  -webkit-letter-spacing: -0.8px;
+  -moz-letter-spacing: -0.8px;
+  -ms-letter-spacing: -0.8px;
+  letter-spacing: -0.8px;
+  line-height: 1.5;
+  font-family: "Roboto",sans-serif;
+}
+
+<div
+    className="emotion-8"
+  >
+    <div
+      className="emotion-1"
+    >
+      <h1
+        className="emotion-0"
+      >
+        Header
+      </h1>
+    </div>
+    <div
+      className="emotion-3"
+    >
+      test-content
+    </div>
+    <div
+      className="emotion-1"
+    >
+      <span
+        className="emotion-5"
+      >
+        Footer
+      </span>
+    </div>
+  </div>,
 ]
 `;

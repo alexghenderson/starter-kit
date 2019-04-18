@@ -1,7 +1,7 @@
 import {mergeTypes} from 'merge-graphql-schemas';
 
-import helloWorld from './hello-world';
+export default modules => {
+  const typeDefs = modules.map(module => module.typedefs);
 
-const typeDefs = [helloWorld];
-
-export default mergeTypes(typeDefs, {all: true});
+  return mergeTypes(typeDefs, {all: true});
+};

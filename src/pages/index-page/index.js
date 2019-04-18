@@ -1,16 +1,12 @@
 import MainLayout from '~/layouts/main-layout';
-import FetchHelloWorld from '~/components/fetch-hello-world';
+import LoremIpsum from '~/components/lorem-ipsum';
 
 import Heading from '~/components/core/heading';
 
 const IndexPage = () => {
   return (
     <MainLayout>
-      <Heading level={1}>hello world!</Heading>
-      <Heading level={2}>hello world!</Heading>
-      <Heading level={3}>hello world!</Heading>
-      <Heading level={4}>hello world!</Heading>
-      <FetchHelloWorld />
+      <LoremIpsum count={5}/>
     </MainLayout>
   );
 };

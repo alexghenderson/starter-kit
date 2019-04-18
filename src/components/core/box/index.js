@@ -12,6 +12,7 @@ const Box = ({
   align,
   children,
   type,
+  between,
   ...rest
 }) => {
   return jsx(
@@ -25,6 +26,9 @@ const Box = ({
         padding: getUnitPixels(inset),
         textAlign: align,
         display: `${inline ? 'inline-' : ''}${type}`,
+        '> *:not(:last-child)': {
+          marginBottom: getUnitPixels(between),
+        },
       },
       ...rest,
     },
@@ -40,7 +44,8 @@ Box.propTypes = {
   children: PropTypes.node,
   type: PropTypes.oneOf(['flex', 'block', 'grid']),
   tag: PropTypes.string,
-  align: PropTypes.oneOf(['inherit', 'left', 'center', 'right'])
+  align: PropTypes.oneOf(['inherit', 'left', 'center', 'right']),
+  between: PropTypes.number,
 };
 
 Box.defaultProps = {
@@ -52,6 +57,7 @@ Box.defaultProps = {
   children: null,
   align: 'inherit',
   tag: 'div',
+  between: 0,
 };
 
 export default Box;

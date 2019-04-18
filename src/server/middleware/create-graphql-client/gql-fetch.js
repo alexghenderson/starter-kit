@@ -9,6 +9,12 @@ import schema from '~/server/graphql/schema';
 const gqlFetch = (url, opts) => {
   // GraphQLClient uses body to deliver query/variables
   const {query, variables, operationName} = JSON.parse(opts.body);
+  // eslint-disable-next-line no-console
+  console.log({
+    operationName,
+    query,
+    variables,
+  });
   return new Promise((resolve, reject) => {
     resolve({
       ok: true,
@@ -21,7 +27,7 @@ const gqlFetch = (url, opts) => {
           variables,
           operationName
         );
-        
+
         return result;
       },
     });

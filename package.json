@@ -57,6 +57,7 @@
     "graphql-hooks-ssr": "^1.1.1",
     "graphql-tools": "^4.0.4",
     "html-react-parser": "^0.7.0",
+    "lorem-ipsum": "^2.0.1",
     "merge-graphql-schemas": "^1.5.8",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",

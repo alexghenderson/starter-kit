@@ -4,6 +4,7 @@ import '@babel/polyfill';
 import path from 'path';
 import express from 'express';
 
+import logRequest from '~/server/middleware/log-request';
 import createGraphqlEndpoint from '~/server/middleware/create-graphql-endpoint';
 import createGraphqlClient from '~/server/middleware/create-graphql-client';
 import renderApp from '~/server/middleware/render-app';
@@ -11,6 +12,8 @@ import renderApp from '~/server/middleware/render-app';
 const port = process.env.PORT || 3000;
 
 const app = express();
+
+app.use(logRequest());
 
 app.use('/static', express.static(path.join(__dirname, '/static')));
 

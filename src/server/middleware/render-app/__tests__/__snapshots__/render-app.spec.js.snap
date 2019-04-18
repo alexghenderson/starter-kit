@@ -2,6 +2,6 @@
 
 exports[`Render App Middleware should replace index file html placeholder with rendered content 1`] = `
 Array [
-  "<!DOCTYPE html><html data-reactroot=\\"\\"><head><title data-react-helmet=\\"true\\"></title><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\"/><script type=\\"text/javascript\\">window.__INITIAL_STATE__={}</script></head><body><main id=\\"app\\">test-markup</main><script src=\\"test.js\\"></script></body></html>",
+  "<!DOCTYPE html><html data-reactroot=\\"\\"><head><title data-react-helmet=\\"true\\"></title><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\"/><link href=\\"https://fonts.googleapis.com/css?family=Lato|Roboto\\" rel=\\"stylesheet\\"/><script type=\\"text/javascript\\">window.__INITIAL_STATE__={}</script></head><body><main id=\\"app\\">test-markup</main><script src=\\"test.js\\"></script></body></html>",
 ]
 `;

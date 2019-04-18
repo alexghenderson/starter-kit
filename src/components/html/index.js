@@ -17,6 +17,7 @@ const Html = ({helmet, children, scriptTags, scriptContent}) => {
         {helmet && helmet.meta.toComponent()}
         {helmet && helmet.link.toComponent()}
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet"></link>
         {scriptContent && (
           <script
             type="text/javascript"

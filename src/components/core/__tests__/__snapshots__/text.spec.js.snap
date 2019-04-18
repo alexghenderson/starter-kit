@@ -10,6 +10,7 @@ Array [
   -ms-letter-spacing: -0.6px;
   letter-spacing: -0.6px;
   line-height: 1.42857;
+  font-family: "Roboto",sans-serif;
 }
 
 <span
@@ -26,6 +27,7 @@ Array [
   -ms-letter-spacing: -0.8px;
   letter-spacing: -0.8px;
   line-height: 1.5;
+  font-family: "Roboto",sans-serif;
 }
 
 <span
@@ -42,6 +44,7 @@ Array [
   -ms-letter-spacing: -1px;
   letter-spacing: -1px;
   line-height: 1.6;
+  font-family: "Roboto",sans-serif;
 }
 
 <span
@@ -62,6 +65,7 @@ exports[`Text core component should render with alternate tags 1`] = `
   -ms-letter-spacing: -0.8px;
   letter-spacing: -0.8px;
   line-height: 1.5;
+  font-family: "Roboto",sans-serif;
 }
 
 <p
@@ -80,6 +84,7 @@ exports[`Text core component should render with default props 1`] = `
   -ms-letter-spacing: -0.8px;
   letter-spacing: -0.8px;
   line-height: 1.5;
+  font-family: "Roboto",sans-serif;
 }
 
 <span
