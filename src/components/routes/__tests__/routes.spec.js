@@ -1,5 +1,5 @@
 import React from 'react';
-import {StaticRouter, Route} from 'react-router-dom';
+import {StaticRouter} from 'react-router-dom';
 import enzyme from 'enzyme';
 
 import Routes from '../';
