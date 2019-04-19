@@ -4,11 +4,7 @@ import PropTypes from 'prop-types';
 
 import GridContext from './grid-context';
 
-const Row = ({
-  tag,
-  children,
-  ...rest
-}) => {
+const Row = ({tag, children, align, ...rest}) => {
   const gridContext = React.useContext(GridContext);
   return jsx(
     tag,
@@ -17,6 +13,7 @@ const Row = ({
         display: 'flex',
         flexDirection: 'row',
         flexWrap: 'wrap',
+        justifyContent: align === 'center' ? 'center' : `flex-${align}`,
         marginLeft: `-${gridContext.gutter}`,
         marginRight: `-${gridContext.gutter}`,
       },
@@ -29,11 +26,13 @@ const Row = ({
 Row.propTypes = {
   children: PropTypes.node,
   tag: PropTypes.string,
+  align: PropTypes.oneOf(['start', 'center', 'end']),
 };
 
 Row.defaultProps = {
   children: null,
   tag: 'div',
+  align: 'start',
 };
 
 export default Row;

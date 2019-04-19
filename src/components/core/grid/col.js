@@ -17,7 +17,7 @@ const Col = ({tag, children, xs, sm, md, lg, ...rest}) => {
     {
       css: {
         display: _xs > 0 ? 'block' : 'none',
-        flex: '1 0 auto',
+        flex: '0 0 auto',
         paddingLeft: gridContext.gutter,
         paddingRight: gridContext.gutter,
         width: `${(xs * 100) / 12}%`,
